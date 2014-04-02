@@ -4,7 +4,7 @@
 
 // Load shim only in component+browser environment. Array.isArray is defined in node
 if (! Array.isArray) {
-    require("isarray-shim");
+    require('gamtiq-isarray-shim');
 }
 
 /**
